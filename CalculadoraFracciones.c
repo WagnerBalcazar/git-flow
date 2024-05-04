@@ -212,6 +212,7 @@ int main(int argc, char const *argv[]) {
 }
 
 void presentarResultado(char operacion, struct CalculadoraFracciones calculadora, struct Fraccion rta) {
+    printf("Hola estoy aprendiendo gitflow");
     printf("Resultado de la operacion: ");
     presentarFraccion(calculadora.fraccion1);
     printf(" %c ", operacion);
